@@ -79,4 +79,4 @@ Read more about [*VerbAtlas*](https://www.aclweb.org/anthology/D19-1058), the Se
 ```
 
 ## License
-UniteD-SRL is licensed under [Creative Commons Attribution Non-Commercial Sharealike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0).
+UniteD-SRL is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0).
