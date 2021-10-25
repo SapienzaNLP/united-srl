@@ -44,7 +44,7 @@ If you use any part of this work, please cite our reference paper.
 ```
 
 ### Other references
-In our experiments, we used trained the model from [*Bridging the Gap in Multilingual Semantic Role Labeling: a Language-Agnostic Approach*](https://www.aclweb.org/anthology/2020.coling-main.120). 
+In our experiments, we used the model from [*Bridging the Gap in Multilingual Semantic Role Labeling: a Language-Agnostic Approach*](https://www.aclweb.org/anthology/2020.coling-main.120). 
 ```bibtex
 @inproceedings{conia-navigli-2020-bridging,
     title = "Bridging the Gap in Multilingual Semantic Role Labeling: a Language-Agnostic Approach",
