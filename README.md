@@ -25,10 +25,15 @@ git clone https://github.com/SapienzaNLP/unify-srl.git
 or [download a zip archive](https://github.com/SapienzaNLP/united-srl/archive/main.zip).
 
 ### Get the data
-The latest version of UniteD-SRL is freely available for research purposes at https://nlp.uniroma1.it/resources.
+The latest version of UniteD-SRL is freely available for research purposes at https://nlp.uniroma1.it/resources (coming soon).
 
 ## Cite this work
 If you use any part of this work, please cite our reference paper.
+
+Plaintext:
+> Rocco Tripodi, Simone Conia and Roberto Navigli, 2021. **UniteD-SRL: Unified Dataset for Span- and Dependency-based Multilingual and Cross-Lingual Semantic Role Labeling.** *In Findings of the Association for Computational Linguistics: EMNLP 2021.* Punta Cana, Dominican Republic. Association for Computational Linguistics.
+
+Bibtex:
 ```bibtex
 @inproceedings{tripodi-etal-2021-united-srl,
     title = {{UniteD-SRL}: {A} Unified Dataset for Span- and Dependency-based Multilingual and Cross-Lingual {S}emantic {R}ole {L}abeling},
