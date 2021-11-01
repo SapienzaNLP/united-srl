@@ -40,7 +40,7 @@ Bibtex:
     author = "Tripodi, Rocco  and
       Conia, Simone  and
       Navigli, Roberto",
-    booktitle = "Proceedings of EMNLP: Findings",
+    booktitle = "Findings of the Association for Computational Linguistics: {EMNLP} 2021",
     month = nov,
     year = "2021",
     address = "Punta Cana, Dominican Republic",
