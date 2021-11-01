@@ -20,7 +20,7 @@ to be presented at EMNLP 2021 by [Rocco Tripodi](https://www.unibo.it/sitoweb/ro
 You can download a copy of all the files in this repository by cloning the
 [git](https://git-scm.com/) repository:
 ```sh
-git clone https://github.com/SapienzaNLP/unify-srl.git
+git clone https://github.com/SapienzaNLP/united-srl.git
 ```
 or [download a zip archive](https://github.com/SapienzaNLP/united-srl/archive/main.zip).
 
