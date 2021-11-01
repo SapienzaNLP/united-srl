@@ -27,6 +27,36 @@ or [download a zip archive](https://github.com/SapienzaNLP/united-srl/archive/ma
 ### Get the data
 The latest version of UniteD-SRL is freely available for research purposes at https://nlp.uniroma1.it/resources (coming soon).
 
+### Data format
+The data is available in a format that is very similar to the [CoNLL-U format](https://universaldependencies.org/format.html).
+Here is an example:
+```
+# document_id = 1996/a/50/18_supp
+# sentence_id = _574:1
+# text = The Committee insists that all perpetrators of violations of the Convention be brought to justice.
+0 The            the            _                    B-agent _
+1 Committee      committee      _                    I-agent _
+2 insists        insist         CAUSE-MENTAL-STATE   B-V     _
+3 that           that           _                    B-theme _
+4 all            all            _                    I-theme B-theme
+5 perpetrators   perpetrator    _                    I-theme I-theme
+6 of             of             _                    I-theme I-theme
+7 violations     violation      _                    I-theme I-theme
+8 of             of             _                    I-theme I-theme
+9 the            the            _                    I-theme I-theme
+10 Convention    Convention     _                    I-theme I-theme
+11 be            be             _                    I-theme _
+12 brought       bring          BRING                I-theme B-V
+13 to            to             _                    I-theme B-destination
+14 justice       justice        _                    I-theme I-destination
+15 .             .              _                    _       _
+```
+* **Column 1:** token index in the sentence.
+* **Column 2:** tokens in the sentence.
+* **Column 3:** lemma of each token in the sentence.
+* **Column 4:** VerbAtlas frame of a predicate. If the token is not a predicate, then `_`.
+* **Column 4 + i:** Roles of predicate `i`. E.g. Column 5 lists the roles for the first predicate, i.e., `insists`.
+
 ## Cite this work
 If you use any part of this work, please cite our reference paper.
 
