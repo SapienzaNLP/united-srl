@@ -25,7 +25,7 @@ git clone https://github.com/SapienzaNLP/united-srl.git
 or [download a zip archive](https://github.com/SapienzaNLP/united-srl/archive/main.zip).
 
 ### Get the data
-The latest version of UniteD-SRL is freely available for research purposes at https://nlp.uniroma1.it/resources (coming soon).
+The latest version of UniteD-SRL is freely available for research purposes at https://nlp.uniroma1.it/resources. A request may take a few days to process: feel free to contact us if you experience any problems.
 
 ### Data format
 The data is available in a format that is very similar to the [CoNLL-U format](https://universaldependencies.org/format.html).
