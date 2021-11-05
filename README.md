@@ -2,7 +2,8 @@
  
 # UniteD-SRL: A unified dataset for span- and dependency-based multilingual and cross-lingual Semantic Role Labeling
 
-[![Paper](http://img.shields.io/badge/paper-Link-B31B1B.svg)](https://www.researchgate.net/publication/354550985_UniteD-SRL_A_Unified_Dataset_for_Span-and_Dependency-Based_Multilingual_and_Cross-Lingual_Semantic_Role_Labeling)
+[![Paper](http://img.shields.io/badge/paper-Link-brightgreen.svg)](https://www.researchgate.net/publication/354550985_UniteD-SRL_A_Unified_Dataset_for_Span-and_Dependency-Based_Multilingual_and_Cross-Lingual_Semantic_Role_Labeling)
+[![Paper](http://img.shields.io/badge/paper-ACL_anthology-critical.svg)](https://aclanthology.org/2021.findings-emnlp.197/)
 [![Conference](http://img.shields.io/badge/conference-EMNLP--2021-4b44ce.svg)](https://2021.emnlp.org/)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0)
 
@@ -12,6 +13,7 @@
 This is the repository for the paper [*UniteD-SRL: A unified dataset for span- and dependency-based multilingual and cross-lingual Semantic Role Labeling*](https://www.researchgate.net/publication/354550985_UniteD-SRL_A_Unified_Dataset_for_Span-and_Dependency-Based_Multilingual_and_Cross-Lingual_Semantic_Role_Labeling),
 to be presented at EMNLP 2021 by [Rocco Tripodi](https://www.unibo.it/sitoweb/rocco.tripodi), [Simone Conia](https://c-simone.github.io) and [Roberto Navigli](https://www.diag.uniroma1.it/navigli/).
 
+[Link to ACL Anthology](https://aclanthology.org/2021.findings-emnlp.197/)
 
 ## Abstract
 > Multilingual and cross-lingual Semantic Role Labeling (SRL) have recently garnered increasing attention as multilingual text representation techniques have become more effective and widely available. While recent work has attained growing success, results on gold multilingual benchmarks are still not easily comparable across languages, making it difficult to grasp where we stand. For example, in CoNLL-2009, the standard benchmark for multilingual SRL, language-to-language comparisons are affected by the fact that each language has its own dataset which differs from the others in size, domains, sets of labels and annotation guidelines. In this paper, we address this issue and propose UNITED-SRL, a new benchmark for multilingual and cross-lingual, span-and dependency-based SRL. UNITED-SRL provides expert-curated parallel annotations using a common predicate-argument structure inventory, allowing direct comparisons across languages and encouraging studies on cross-lingual transfer in SRL.
@@ -66,15 +68,19 @@ Plaintext:
 Bibtex:
 ```bibtex
 @inproceedings{tripodi-etal-2021-united-srl,
-    title = {{UniteD-SRL}: {A} Unified Dataset for Span- and Dependency-based Multilingual and Cross-Lingual {S}emantic {R}ole {L}abeling},
+    title = "{UniteD-SRL}: {A} Unified Dataset for Span- and Dependency-Based Multilingual and Cross-Lingual {S}emantic {R}ole {L}abeling",
     author = "Tripodi, Rocco  and
       Conia, Simone  and
       Navigli, Roberto",
-    booktitle = "Findings of the Association for Computational Linguistics: {EMNLP} 2021",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2021",
     month = nov,
     year = "2021",
     address = "Punta Cana, Dominican Republic",
-    publisher = "Association for Computational Linguistics"
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.findings-emnlp.197",
+    pages = "2293--2305",
+}
+
 }
 ```
 
